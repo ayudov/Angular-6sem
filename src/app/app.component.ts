@@ -101,7 +101,5 @@ export class AppComponent {
         else {this.cities_sq.push(new City_sq(this.cities_sq.length+1, ref_id, value, year));}
 
         this.city_square.push(new City_square(this.cities[ref_id-1].name, value, year, this.cities[ref_id-1].capital));
-        console.log(ref_id);
-
     }
 }
